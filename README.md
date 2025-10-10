@@ -5,8 +5,8 @@
 __Gabriel Lopes Lima__  
 Projeto desenvolvido como parte do curso __SENAI Ford Enter__.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/seu-perfil)  
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabriel-lopes-l/)  
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/gllbob)
 
 ---
 
