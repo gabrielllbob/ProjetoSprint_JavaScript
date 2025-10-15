@@ -48,7 +48,17 @@ class Carousel {
         }    
     }
 
-    static Back() {
+    static Prev() {
+        let item = Carousel._arr[Carousel._sequence];
+
+        document.getElementById("carousel").innerHTML =
+            `<a href="${item.link}">
+                <img src="${item.img}" alt="${item.title}" style="width:100%;max-height:100%;object-fit:contain;border-radius:10px;">
+            </a>`;
+        
+        document.getElementById("carousel-title").innerHTML =
+            `<p style="font-size:18px;font-weight:bold;margin-top:10px;">${item.title}</p>`;
+            
         Carousel._sequence--;
         if (Carousel._sequence < 0) {
             Carousel._sequence = Carousel._size - 1;

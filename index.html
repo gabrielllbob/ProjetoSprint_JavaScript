@@ -30,8 +30,15 @@
 
     </header>
     <main>
-        <div id="carousel">
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <div id="carousel-controls" style="display: flex; width: fit-content; justify-content: space-between; align-items: center;">
+                <button style="width: 3%; height: 7%; border-radius: 25px; position: relative; left: 3%;" id="prev" onclick="Carousel.Prev()">&#10094;</button>
+                <div id="carousel">
+                </div>
+                <button style="width: 3%; height: 7%; border-radius: 25px; position: relative; right: 3%;" id="next" onclick="Carousel.Next()">&#10095;</button>
+            </div>
         </div>
+        
         <div id="carousel-title">
         </div>
         <script>
