@@ -23,6 +23,8 @@ function Post(form) {
             
     console.log(data);
     Enviar();
+    form.reset();
+    return false;
 }
 
 function Enviar() {
